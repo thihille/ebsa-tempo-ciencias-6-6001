@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
-	<title></title>
-	<link rel="stylesheet" href="css/index.min.css">
-	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Objetos Educacionais</title>
 </head>
 <body>
-
-	<!-- Elementos para a capa -->
-	<div class="EbsaGame">
-
-		<!-- CONTEÚDO DO JOGO, DESCONSIDERAR O USO DESSA DIV PARA O TEMPLATE-->
-		<div class="conteudo">
-			<iframe id="frame_game" name="frame_game" width="100%" height="660px" src="./conteudo/game.html" frameBorder="0" scrolling="no"></iframe>
-		</div>
-		<!-- CONTEÚDO DO JOGO, DESCONSIDERAR O USO DESSA DIV PARA O TEMPLATE-->
-
-		<!-- CONTEÚDO DE VÍDEO, DESCONSIDERAR O USO DESSA DIV PARA O TEMPLATE -->
-		<video width="1024" height="660" controls id="videoPrincipalOedVideo"></video>
-		<!-- CONTEÚDO DE VÍDEO, DESCONSIDERAR O USO DESSA DIV PARA O TEMPLATE -->
-	</div>
-
-	<script type="text/javascript" src="conteudo/js/config.js"></script>
-	<script src="js/index.min.js"></script>
+    <div>
+        <h3>
+            Olá, você está no portal dos Objetos Educacionais, para continuar preencha o login e senha:
+        </h3>
+        <form>
+            <div>
+                <label for="">Login:</label>
+                <input type="text" placeholder="Login">
+            </div>
+            <div>
+                <label for="">Senha:</label>
+                <input type="text" placeholder="Senha">
+            </div>
+            <div>
+                <button onclick="carregarMenu()">Login</button>
+            </div>
+        </form>
+    </div>
+    <div id="presentation">
+        <header>
+            Este conteúdo é protegido por direitos autorais, é proibida a cópia de qualquer conteúdo apresentado.
+        </header>
+        <iframe class="iframe-oeds" name="iframe-oeds" frameborder="0"></iframe>
+    </div>
+    <script>
+        function carregarMenu(){
+            document.querySelector('.iframe-oeds').src = 'https://thihille.github.io/ebsa-tempo-ciencias-6-6001/dtmc-6001/index.html';
+        }
+    </script>
 </body>
 </html>
