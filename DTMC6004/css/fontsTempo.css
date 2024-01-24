@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'OfficinaSansStdBold';
+    src: url('fonts_tempo/OfficinaSansStdBold.eot');
+    src: url('fonts_tempo/OfficinaSansStdBold.eot') format('embedded-opentype'),
+         url('fonts_tempo/OfficinaSansStdBold.woff2') format('woff2'),
+         url('fonts_tempo/OfficinaSansStdBold.woff') format('woff'),
+         url('fonts_tempo/OfficinaSansStdBold.ttf') format('truetype'),
+         url('fonts_tempo/OfficinaSansStdBold.svg#OfficinaSansStdBold') format('svg');
+}
+@font-face {
+    font-family: 'AvenirLTStdLight';
+    src: url('fonts_tempo/AvenirLTStdLight.eot');
+    src: url('fonts_tempo/AvenirLTStdLight.eot') format('embedded-opentype'),
+         url('fonts_tempo/AvenirLTStdLight.woff2') format('woff2'),
+         url('fonts_tempo/AvenirLTStdLight.woff') format('woff'),
+         url('fonts_tempo/AvenirLTStdLight.ttf') format('truetype'),
+         url('fonts_tempo/AvenirLTStdLight.svg#AvenirLTStdLight') format('svg');
+}
+@font-face {
+    font-family: 'ClearfaceGothicLHLight';
+    src: url('fonts_tempo/ClearfaceGothicLHLight.eot');
+    src: url('fonts_tempo/ClearfaceGothicLHLight.eot') format('embedded-opentype'),
+         url('fonts_tempo/ClearfaceGothicLHLight.woff2') format('woff2'),
+         url('fonts_tempo/ClearfaceGothicLHLight.woff') format('woff'),
+         url('fonts_tempo/ClearfaceGothicLHLight.ttf') format('truetype'),
+         url('fonts_tempo/ClearfaceGothicLHLight.svg#ClearfaceGothicLHLight') format('svg');
+}

@@ -1,0 +1,233 @@
+/* SEU CSS AQUI */
+
+@font-face {
+    font-family: 'Myriad';
+    src:  url('fontes/MyriadPro-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Myriad';
+    src:  url('fontes/MyriadPro-Regular.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Myriad';
+    src:  url('fontes/MyriadPro-LightIt.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic
+}
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,a,em,img,strong,b,i,ol,ul,li,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "Myriad";
+}
+body{
+	background:#000000;
+}
+b,strong {
+    font-family: "Myriad";
+    font-weight: bold
+}
+i,em {
+    font-family: 'Myriad';
+    font-style: italic
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+button{
+    color: #ffffff;
+    background-color: transparent;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    border: none;
+}
+
+#tela-inicio, #texto-capa, .texto, .btn-fecha, .drop, #tela-final, #texto-final, div img, #video, #painel-planetas{
+    position: absolute;
+}
+
+#tela-final, #jogo, .popup, .planeta{
+    display: none;
+}
+
+/********** TELA INÍCIO **********/
+#texto-capa{
+    color: #ffffff;
+    font-size: 24px;
+    left: 217px;
+    margin-bottom: 10px;
+    text-align: center;
+    top: 135px;
+    width: 590px;
+}
+#texto-capa p{
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+#btn-iniciar{
+    height: 42px;
+    left: 435px;
+    top: 548px;
+    width: 153px;
+}
+
+/********** TELA FINAL **********/
+#texto-final{
+    color: #ffa800;
+    font-size: 19px;
+    font-style: italic;
+    left: 62px;
+    margin-bottom: 10px;
+    text-align: center;
+    top: 543px;
+    width: 900px;
+}
+
+#btn-fim{
+    height: 42px;
+    left: 435px;
+    top: 599px;
+    width: 153px;
+}
+
+/********** JOGO **********/
+#painel-planetas{
+    bottom: -439px;
+    left: -9px;
+}
+#painel-planetas div{
+    height: 110px;
+    position: absolute;
+}
+
+.texto-planeta-drag{
+    bottom: 0;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 84px;
+}
+
+#planeta-drag6 .texto-planeta-drag{
+    width: 144px;
+}
+
+.drag{
+    cursor: pointer;
+}
+#planeta-drag1{
+    left: 88px;
+    top: 82px;
+}
+#planeta-drag2{
+    left: 190px;
+    top: 82px;
+}
+#planeta-drag3{
+    left: 291px;
+    top: 82px;
+}
+#planeta-drag4{
+    left: 392px;
+    top: 82px;
+}
+#planeta-drag5{
+    left: 492px;
+    top: 82px;
+}
+#planeta-drag6{
+    left: 594px;
+    top: 82px;
+}
+#planeta-drag7{
+    left: 756px;
+    top: 82px;
+}
+#planeta-drag8{
+    left: 863px;
+    top: 82px;
+}
+
+#drop1{
+    left: 431px;
+    top: 155px;
+    transform: scale(0.3);
+}
+#drop2{
+    left: 485px;
+    top: 236px;
+    transform: scale(0.4);
+}
+#drop3{
+    left: 633px;
+    top: 146px;
+    transform: scale(0.4);
+}
+#drop4{
+    left: 628px;
+    top: 249px;
+    transform: scale(0.4);
+}
+#drop5{
+    left: 760px;
+    top: 156px;
+    transform: scale(0.5);
+}
+#drop6{
+    left: 219px;
+    top: 266px;
+    transform: scale(0.5);
+}
+#drop7{
+    left: 729px;
+    top: 368px;
+    transform: scale(0.5);
+}
+#drop8{
+    left: 937px;
+    top: 252px;
+    transform: scale(0.5);
+}
+
+.drop{
+    background-image: url("../img/espaco-branco.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+}
+
+.btn-fecha{
+    height: 37px;
+    left: 843px;
+    top: 78px;
+    width: 37px;
+}
+
+.texto-popup{
+    bottom: -540px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 38px;
+    left: 543px;
+    margin-bottom: 30px;
+    width: 295px;
+}
+
+#player_video{
+	z-index:450;
+}
+#jogo{
+	position:fixed;
+}

@@ -1,0 +1,154 @@
+ <!doctype html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="expires" content="0" />
+	<meta name="author" content="Editora do Brasil" />
+	<meta name="copyright" content="© 2014 Editoradobrasil.com.br" />
+	<meta name="apple-mobile-web-app-title" content="Editora do Brasil">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/animate.css" type="text/css">
+	<link rel="stylesheet" href="css/template.css" type="text/css">
+	<link rel="stylesheet" href="css/din.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<title></title>
+</head>
+
+<body>
+
+<!-- teste audio -->
+<!-- <button class="testeAudio"> Testar Áudio </button> -->
+<!-- end teste audio -->
+
+<div id="loading"><img src="img/template/loader.gif" alt="Carregando">Carregando</div>
+<div id="init" class="container">
+	<div id="capa">
+		<div class="header">
+			<h1></h1>
+		</div>
+		<div class="subheader">
+			<!-- <span>-</span>	 -->
+			<p></p>
+		</div>
+		<div class="acoes">
+			<div>Iniciar</div>
+			<div>créditos</div>
+		</div>
+		<div id="creditos">
+			<div class="barraLogo">
+				<img src="img/template/logo.png">
+			</div>
+			<h2>Projeto Jimboê</h2>
+			<div class="boxTextMask"></div>
+			<div class="boxText">
+				<div class="text-creditos">
+				</div>
+			</div>
+			<div class="btnFechaCreditos">FECHAR</div>
+		</div>
+	</div>
+
+	<div id="content">
+	<div class="background"></div>
+	<!-- Início do html aqui -->
+		<div class="filme"></div>
+		<div class="game">
+		<!-- Ajustes para movimentos de falas -->
+			<div id="fala_cobertura"></div>
+			<div id="fala_texto_1">
+				<img id="fala_linha_1" src="./img/plan_1b.png" />
+			</div>
+		
+		<!--FIM  Ajustes para movimentos de falas -->
+			<div class="stage1">
+				<div id="pisca_fase_1" class="animacao_1_repete personagem_piscada">
+					<img id="pisca_img_fase_1" src="./img/menina_pisca.png" />
+				</div>
+				<div id="pisca_fase_2" class="animacao_1_repete personagem_piscada">
+					<img id="pisca_img_fase_2" src="./img/menina_pisca_help.png" />
+				</div>				
+				<img src="img/menina.png" alt="" class="menina" id="menina">
+				<img src="img/menina_on.png" alt="" class="menina" id="menina_on">
+				<div class="textBox">
+					<p>
+						Olá, meu nome é Andreia. Eu sou muito curiosa e estava pensando na aula de hoje sobre as propriedades do ar.
+						<br /><br />
+						O ar é uma mistura de várias substâncias, principalmente gases. 
+						<br />
+						Como os gases normalmente são invisíveis, não podemos ver o ar, mas podemos senti-lo por meio do vento e de nossa respiração, por exemplo. O ar é constituído de matéria e, portanto,
+						tem massa e volume.
+					</p>
+					<div class="arrowLeft"><img src="img/seta_left.png" alt=""></div>
+				</div>
+				<img src="img/pa.png" alt="" class="pa efeitoRotatePa" id="moinho">
+			</div>
+
+			<div class="stage2">
+				<div class="circle"></div>
+				<div id="pisca_fase_3" class="animacao_1_repete personagem_piscada">
+					<img id="pisca_img_fase_3" src="./img/menina_pisca.png" />
+				</div>
+				<img src="img/menina_bottom.png" alt="" class="meninaBottom">
+				<div class="textBox">
+					<!--<p>
+						 Em sua opinião, se taparmos a ponta de uma seringa
+						com o dedo e empurrarmos o êmbolo, ele encontrará resistência? 
+
+						
+					</p>
+					<div class="arrowLeft"><img src="img/seta_left2.png" alt=""></div>-->
+					<span id="balao_pergunta_seringa" style="position:absolute; top:51px; left:-68px;">
+						<img src="./img/balao_pergunta_seringa.png"/>
+					<span>
+				</div>
+				<div class="content">
+					<img src="img/content_img_stage2.png" alt="" class="img1">
+					<img src="img/content_img2_stage2.png" alt="" class="img2">
+				</div>
+
+				<div class="btn btnSim">Sim</div>
+				<div class="btn btnNao">Não</div>
+			</div>
+
+			<div class="stage3">
+				<div class="circle"></div>
+				<div id="pisca_fase_4" class="animacao_1_repete personagem_piscada">
+					<img id="pisca_img_fase_4" src="./img/menina_pisca.png" />
+				</div>				
+				<img src="img/menina_bottom.png" alt="" class="meninaBottom">
+				<div class="textBox">
+					<!--<p>
+						Se estourarmos um dos balões, será que a
+						varinha de madeira continuará equilibrada ou se inclinará para um dos lados?
+					</p>
+					<div class="arrowLeft"><img src="img/seta_left2.png" alt=""></div>-->
+					<span id="balao_pergunta_balao" style="position:absolute; top:46px; left:-68px;">
+						<img src="./img/balao_pergunta_balao.png"/>
+					<span>
+				</div>
+				<div class="content">
+					<img src="img/content_img_stage3.png" alt="" class="img1">
+					<img src="img/content_img2_stage3.png" alt="" class="img2">
+					<img src="img/content_img3_stage3.png" alt="" class="img3">
+				</div>
+
+				<div class="btn btnSim">Inclinará</div>
+				<div class="btn btnNao">Continuará equilibrada</div>
+			</div>
+		</div>
+	<!-- Final do html aqui -->
+	</div>
+</div>
+	<script>
+function iniciar_oed_frame(){
+	//alert("iniciar_oed_frame");
+	iniciar_com_tap();
+}	
+	</script>
+  <script type="text/javascript" src="../js/lib/howler.js"></script>
+  <script type="text/javascript" src="js/audios_oed.js"></script>
+  <script type="text/javascript" src="../js/carrega_oed.js"></script>
+  <script type="text/javascript" src="js/funcoes.js"></script>
+</body>	
+</html>

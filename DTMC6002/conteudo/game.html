@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- HTML DO OED AQUI -->
+        <div class="OED">
+
+            <div id="tela-inicio">
+                <img src="img/tela1_inicio_background.jpg" alt=""/>
+                <button type="button" id="btn-iniciar"></button>
+                <div id="texto-capa" class="texto">
+                    <p>Em todo o Universo há muitos sistemas em que astros orbitam uma estrela, em alguns casos, podem até orbitar mais de uma.</p>
+                    <p>A Terra faz parte do Sistema Solar, em que todos os planetas e outros astros giram ao redor da estrela Sol.</p>
+                    <p>Cada planeta do Sistema Solar tem características únicas. Organize todos nas órbitas corretas e conheça alguns detalhes curiosos sobre eles.</p>
+                </div>
+            </div>
+
+            <div id="jogo">
+                <img src="img/tela2_principal_background.jpg" alt=""/>
+
+                <div id="grupo-planetas">
+                    <img src="img/tela2_principal_sistema_mercurio.png" alt="" id="planeta1" class="planeta"/>
+                    <img src="img/tela2_principal_sistema_venus.png" alt="" id="planeta2" class="planeta"/>
+                    <img src="img/tela2_principal_sistema_terra.png" alt="" id="planeta3" class="planeta"/>
+                    <img src="img/tela2_principal_sistema_marte.png" alt="" id="planeta4" class="planeta"/>
+                    <img src="img/tela2_principal_sistema_jupiter.png" alt="" id="planeta5" class="planeta"/>
+                    <img src="img/tela2_principal_sistema_saturno.png" alt="" id="planeta6" class="planeta"/>
+                    <img src="img/tela2_principal_sistema_urano.png" alt="" id="planeta7" class="planeta"/>
+                    <img src="img/tela2_principal_sistema_netuno.png" alt="" id="planeta8" class="planeta"/>
+                </div>
+
+                <div id="grupo-drop">
+                    <div id="drop1" class="drop"></div>
+                    <div id="drop2" class="drop"></div>
+                    <div id="drop3" class="drop"></div>
+                    <div id="drop4" class="drop"></div>
+                    <div id="drop5" class="drop"></div>
+                    <div id="drop6" class="drop"></div>
+                    <div id="drop7" class="drop"></div>
+                    <div id="drop8" class="drop"></div>
+                </div>
+
+                <div id="painel-planetas">
+                    <img src="img/tela2_principal_painel.png" alt=""/>
+                    <div id="planeta-drag1" class="planeta-drag">
+                        <img src="img/tela2_principal_painel_mercurio.png" alt="" id="drag1" class="drag"/>
+                        <p class="texto texto-planeta-drag">Mercúrio</p>
+                    </div>
+                    <div id="planeta-drag2" class="planeta-drag">
+                        <img src="img/tela2_principal_painel_venus.png" alt="" id="drag2" class="drag"/>
+                        <p class="texto texto-planeta-drag">Vênus</p>
+                    </div>
+                    <div id="planeta-drag3" class="planeta-drag">
+                        <img src="img/tela2_principal_painel_terra.png" alt="" id="drag3" class="drag"/>
+                        <p class="texto texto-planeta-drag">Terra</p>
+                    </div>
+                    <div id="planeta-drag4" class="planeta-drag">
+                        <img src="img/tela2_principal_painel_marte.png" alt="" id="drag4" class="drag"/>
+                        <p class="texto texto-planeta-drag">Marte</p>
+                    </div>
+                    <div id="planeta-drag5" class="planeta-drag">
+                        <img src="img/tela2_principal_painel_jupiter.png" alt="" id="drag5" class="drag"/>
+                        <p class="texto texto-planeta-drag">Júpiter</p>
+                    </div>
+                    <div id="planeta-drag6" class="planeta-drag">
+                        <img src="img/tela2_principal_painel_saturno.png" alt="" id="drag6" class="drag"/>
+                        <p class="texto texto-planeta-drag">Saturno</p>
+                    </div>
+                    <div id="planeta-drag7" class="planeta-drag">
+                        <img src="img/tela2_principal_painel_urano.png" alt="" id="drag7" class="drag"/>
+                        <p class="texto texto-planeta-drag">Urano</p>
+                    </div>
+                    <div id="planeta-drag8" class="planeta-drag">
+                        <img src="img/tela2_principal_painel_netuno.png" alt="" id="drag8" class="drag"/>
+                        <p class="texto texto-planeta-drag">Netuno</p>
+                    </div>
+                </div>
+
+                <div id="grupo-popup">
+                    <div id="popup1" class="popup">
+                        <img src="img/tela2-popup-mercurio.jpg" alt=""/>
+                        <button type="button" class="btn-fecha" id="fecha-popup1"></button>
+                        <div class="texto texto-popup">
+                            <p>Mercúrio é o planeta mais próximo do Sol e leva 87 dias terrestres para completar uma volta em torno dele. Como praticamente não tem atmosfera, as temperaturas variam muito, chegando<br>a aproximadamente 400 °C<br>de dia e -180 °C à noite. </p>
+                        </div>
+                    </div>
+                    <div id="popup2" class="popup">
+                        <img src="img/tela2-popup-venus.jpg" alt=""/>
+                        <button type="button" class="btn-fecha" id="fecha-popup2"></button>
+                        <div class="texto texto-popup">
+                            <p>Vênus é o segundo planeta mais próximo do Sol. Seu período de translação dura 224 dias terrestres. Em sua atmosfera ocorre o efeito estufa, que faz a temperatura ambiente ser de aproximadamente 480 °C. </p>
+                        </div>
+                    </div>
+                    <div id="popup3" class="popup">
+                        <img src="img/tela2-popup-terra.jpg" alt=""/>
+                        <button type="button" class="btn-fecha" id="fecha-popup3"></button>
+                        <div class="texto texto-popup">
+                            <p>O terceiro planeta mais próximo do Sol é a Terra e seu período de translação dura em torno de 365 dias. A atmosfera nos protege dos raios solares<br>e mantém uma temperatura que possibilita a existência<br>de água líquida e vida.</p>
+                        </div>
+                    </div>
+                    <div id="popup4" class="popup">
+                        <img src="img/tela2-popup-marte.jpg" alt=""/>
+                        <button type="button" class="btn-fecha" id="fecha-popup4"></button>
+                        <div class="texto texto-popup">
+                            <p>Marte está logo depois<br>da Terra, é o quarto planeta. Seu período de translação é de aproximadamente 687 dias terrestres e a temperatura de sua superfície varia entre<br>-140 °C e 20 °C.</p>
+                        </div>
+                    </div>
+                    <div id="popup5" class="popup">
+                        <img src="img/tela2-popup-jupiter.jpg" alt=""/>
+                        <button type="button" class="btn-fecha" id="fecha-popup5"></button>
+                        <div class="texto texto-popup">
+                            <p>Júpiter é o quinto planeta<br>e o maior do Sistema Solar. Seu período de translação é de aproximadamente 12 anos terrestres e sua temperatura média é de -120 °C.<br><br></p>
+                        </div>
+                    </div>
+                    <div id="popup6" class="popup">
+                        <img src="img/tela2-popup-saturno.jpg" alt=""/>
+                        <button type="button" class="btn-fecha" id="fecha-popup6"></button>
+                        <div class="texto texto-popup">
+                            <p>O sexto planeta do Sistema Solar é Saturno. Ele só é menor do que Júpiter, e tem grandes anéis de gelo que são visíveis até com uma luneta. Seu período de translação dura cerca de 29,5 anos terrestres<br>e tem uma temperatura<br>média de -125 °C.</p>
+                        </div>
+                    </div>
+                    <div id="popup7" class="popup">
+                        <img src="img/tela2-popup-urano.jpg" alt=""/>
+                        <button type="button" class="btn-fecha" id="fecha-popup7"></button>
+                        <div class="texto texto-popup">
+                            <p>Urano é o sétimo planeta<br>do Sistema Solar; seu<br>período de translação é de aproximadamente 84 anos terrestres e sua temperatura<br>é cerca de -193 °C.<br><br></p>
+                        </div>
+                    </div>
+                    <div id="popup8" class="popup">
+                        <img src="img/tela2-popup-netuno.jpg" alt=""/>
+                        <button type="button" class="btn-fecha" id="fecha-popup8"></button>
+                        <div class="texto texto-popup">
+                            <p>Netuno é o oitavo e último planeta do Sistema Solar.<br>Seu período de translação<br>é de aproximadamente<br>164 anos terrestres e sua temperatura varia entre<br>-193 °C e -153 °C.<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="tela-final">
+                <img src="img/tela4_final_background.jpg" alt=""/>
+                <div id="video">
+<video width="1024" height="576" id="player_video" loop>
+  <source src="./media/video/DKC4005_01.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+                </div>
+                <div id="texto-final">
+                    <p>Plutão era considerado o último planeta do Sistema Solar até 2006, quando astrônomos alteraram sua classificação para planeta-anão, por ele ser muito pequeno e por sua órbita cruzar a órbita de Netuno em alguns momentos.</p>
+                </div>
+                <button type="button" id="btn-fim"></button>
+            </div>
+
+        </div>
+        <!-- HTML DO OED AQUI -->
+
+
+  <!-- CARREGAMENTO DE SCRIPTS -->
+
+  <!-- build:js js/index.min.js -->
+  <script type="text/javascript" src="../js/lib/howler.js"></script>
+  <script type="text/javascript" src="js/audios_oed.js"></script>
+  <script type="text/javascript" src="../js/carrega_oed.js"></script>
+  <script type="text/javascript" src="js/funcoes.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

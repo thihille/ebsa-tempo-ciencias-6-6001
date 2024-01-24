@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <!-- build:css css/index.min.css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<!-- HTML DO OED AQUI -->
+<div class="OED">
+  <!-- ABERTURA/INTRODUÇÃO -->
+  <div class="intro">
+    <!-- <div class="nome">
+      <span>Movimentos da Terra</span>
+    </div> -->
+    <div class="apresentacao">
+      <span>Apesar de não parecer, a Terra realiza diversos movimentos, como a precessão, a rotação e a translação, entre outros. No momento estudaremos apenas os movimentos de rotação e translação, cujos efeitos sentimos facilmente em nosso cotidiano.</span>
+    </div>
+    <div class="botoes">
+      <div class="btn">
+        <span>Rotação</span>
+        <button class="btn01" id="btn01"></button>
+      </div>
+      <div class="btn">
+        <span>Translação</span>
+        <button class="btn02" id="btn02"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROTAÇÃO/BTN01 -->
+  <div class="rotacao">
+    <!-- <div class="nomeRotacao">Movimentos da terra</div> -->
+    <span>Rotação</span>
+    <button class="btnVoltar">Voltar</button>
+    <div class="videoRotacao">
+      <video id="vidRotacao" width="100%" height="auto" controls>
+        <source src="media/video/rotacao03.mp4" type="video/mp4"></source>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <!-- TRANSLAÇÃO/BTN02 -->
+  <div class="translacao">
+    <!-- <div class="nomeRotacao">Movimentos da terra</div> -->
+    <span>Translação</span>
+    <button class="btnVoltar">Voltar</button>
+    <div class="videoTranslacao">
+      <video id="vidTranslacao" width="100%" height="auto" controls>
+        <source src="media/video/translacao05.mp4" type="video/mp4"></source>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+<!-- FIM DO HTML DO OED -->
+
+<!-- Preload de áudios -->
+<!-- <audio data-src="media/audio/trilha_sonora.mp3" class="preload"></audio> -->
+<!-- Preload de áudios -->
+
+
+  <!-- CARREGAMENTO DE SCRIPTS -->
+
+  <!-- build:js js/index.min.js -->
+  <script type="text/javascript" src="../js/lib/howler.js"></script>
+  <script type="text/javascript" src="js/audios_oed.js"></script>
+  <script type="text/javascript" src="../js/carrega_oed.js"></script>
+  <script type="text/javascript" src="js/funcoes.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

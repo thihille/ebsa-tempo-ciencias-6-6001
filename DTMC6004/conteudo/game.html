@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<!-- HTML DO OED AQUI -->
+<video width="1024" height="660" controls>
+    <source src="media/video/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="OED">
+    <div class="intro_texto">Agora, para conhecer melhor o ambiente de mata ciliar, clique em cada botão piscante.</div>
+    <div class="overlay"></div>
+    <ul class="pontosAtivos">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    
+    <div id="pontoUm" class="janela">
+        <div class="ilustra">
+            <img src="img/img-tela1-ex.png">
+        </div>
+        <div class="marcador"></div>
+        <div class="desc">
+            Quando chove, parte da água da chuva é retida pelas copas das árvores e evapora em seguida. A parte da água que atinge o solo encontra facilidade em nele se infiltrar, pela presença das raízes das plantas. Assim, pouca água chega nos rios. Isso reduz as enchentes e impede que o rio receba a água proveniente de áreas de plantação contaminada com restos de adubos ou agrotóxicos.
+            <div class="btnFechar">X</div>
+            </div>
+    </div>
+    <div id="pontoDois" class="janela">
+        <div class="ilustra"><div class="complemento"></div></div>
+        <div class="marcador"></div>
+        <div class="desc">As raízes entrelaçadas das plantas formam um emaranhado que fixa o solo das margens, evitando que ele caia no leito dos rios por ação da água da chuva. Isso evita que o rio vá ficando mais raso e, com o tempo, seque.
+        <div class="btnFechar">X</div>
+        </div>
+    </div>
+    <div id="pontoTres" class="janela">
+        <div class="ilustra"><div class="complemento"></div></div>
+        <div class="marcador"></div>
+        <div class="desc">
+        Além das plantas que a formam, essa mata serve de hábitat para muitas espécies animais, como sapos, pererecas, pássaros, pequenos roedores e felinos de grande porte, como a suçuarana.
+        <div class="btnFechar">X</div>
+        </div>
+    </div>
+    <div id="pontoQuatro" class="janela">
+        <div class="ilustra"><div class="complemento"></div></div>
+        <div class="marcador"></div>
+        <div class="desc">
+        Os organismos aquáticos se beneficiam de um clima em que as variações das temperaturas são pequenas, há sombras e plantas para se alimentarem.<br />
+        Peixes, serpentes, camarões e até mesmo alguns mamíferos, como a ariranha, encontram na mata ciliar recursos suficientes para sua sobrevivência.
+        <div class="btnFechar">X</div>
+        </div>
+    </div>
+	<audio data-src="media/audio/narracao.mp3" class="preload"></audio>
+	
+</div>
+<!-- HTML DO OED AQUI -->
+
+
+	<!-- CARREGAMENTO DE SCRIPTS -->
+    <script type="text/javascript" src="../js/lib/howler.js"></script>
+    <script type="text/javascript" src="js/audios_oed.js"></script>
+	<script type="text/javascript" src="../js/carrega_oed.js"></script>
+	<script type="text/javascript" src="js/biblioteca.js"></script>	
+	<script type="text/javascript" src="js/funcoes.js"></script>	
+</body>	
+</html>

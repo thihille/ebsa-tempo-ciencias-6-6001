@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'penumbrasansstd-bold';
+    src: url(din/penumbrasansstd-bold.eot);
+    src: url(din/penumbrasansstd-bold.eot?#iefix) format('embedded-opentype'),
+         url(din/penumbrasansstd-bold.woff) format('woff'),
+         url(din/penumbrasansstd-bold.ttf) format('truetype'),
+         url(din/penumbrasansstd-bold.svg#penumbrasansstd-bold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'penumbrasansstd-light';
+    src: url(din/penumbrasansstd-light.eot);
+    src: url(din/penumbrasansstd-light.eot?#iefix) format('embedded-opentype'),
+         url(din/penumbrasansstd-light.woff) format('woff'),
+         url(din/penumbrasansstd-light.ttf) format('truetype'),
+         url(din/penumbrasansstd-light.svg#penumbrasansstd-light) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'penumbrasansstd-regular';
+    src: url(din/penumbrasansstd-regular.eot);
+    src: url(din/penumbrasansstd-regular.eot?#iefix) format('embedded-opentype'),
+         url(din/penumbrasansstd-regular.woff) format('woff'),
+         url(din/penumbrasansstd-regular.ttf) format('truetype'),
+         url(din/penumbrasansstd-regular.svg#penumbrasansstd-regular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vagroundedstd-bold';
+    src: url(din/vagroundedstd-bold.eot);
+    src: url(din/vagroundedstd-bold.eot?#iefix) format('embedded-opentype'),
+         url(din/vagroundedstd-bold.woff) format('woff'),
+         url(din/vagroundedstd-bold.ttf) format('truetype'),
+         url(din/vagroundedstd-bold.svg#vagroundedstd-bold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vagroundedstd-light';
+    src: url(din/vagroundedstd-light.eot);
+    src: url(din/vagroundedstd-light.eot?#iefix) format('embedded-opentype'),
+         url(din/vagroundedstd-light.woff) format('woff'),
+         url(din/vagroundedstd-light.ttf) format('truetype'),
+         url(din/vagroundedstd-light.svg#vagroundedstd-light) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vagroundedstd-thin';
+    src: url(din/vagroundedstd-thin.eot);
+    src: url(din/vagroundedstd-thin.eot?#iefix) format('embedded-opentype'),
+         url(din/vagroundedstd-thin.woff) format('woff'),
+         url(din/vagroundedstd-thin.ttf) format('truetype'),
+         url(din/vagroundedstd-thin.svg#vagroundedstd-thin) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'dincond-boldregular';
+    src: url(din/din_cond-bold-webfont.eot);
+    src: url(din/din_cond-bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(din/din_cond-bold-webfont.woff) format('woff'),
+         url(din/din_cond-bold-webfont.ttf) format('truetype'),
+         url(din/din_cond-bold-webfont.svg#dincond-boldregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dincond-lightregular';
+    src: url(din/din_cond-light-webfont.eot);
+    src: url(din/din_cond-light-webfont.eot?#iefix) format('embedded-opentype'),
+         url(din/din_cond-light-webfont.woff) format('woff'),
+         url(din/din_cond-light-webfont.ttf) format('truetype'),
+         url(din/din_cond-light-webfont.svg#dincond-lightregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dincond-mediumregular';
+    src: url(din/din_cond-medium-webfont.eot);
+    src: url(din/din_cond-medium-webfont.eot?#iefix) format('embedded-opentype'),
+         url(din/din_cond-medium-webfont.woff) format('woff'),
+         url(din/din_cond-medium-webfont.ttf) format('truetype'),
+         url(din/din_cond-medium-webfont.svg#dincond-mediumregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

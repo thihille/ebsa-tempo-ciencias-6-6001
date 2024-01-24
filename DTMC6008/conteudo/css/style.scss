@@ -1,0 +1,468 @@
+$red: #e64c3c;
+
+@font-face {
+  font-family: 'UniversLTStd-Cn';
+  src: url('fonts/UniversLTStd-Cn.eot?#iefix') format('embedded-opentype'),  url('fonts/UniversLTStd-Cn.otf')  format('opentype'),
+	     url('fonts/UniversLTStd-Cn.woff') format('woff'), url('fonts/UniversLTStd-Cn.ttf')  format('truetype'), url('fonts/UniversLTStd-Cn.svg#UniversLTStd-Cn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UniversLTStd-BoldCn';
+  src: url('fonts/UniversLTStd-BoldCn.eot?#iefix') format('embedded-opentype'),  url('fonts/UniversLTStd-BoldCn.otf')  format('opentype'),
+	     url('fonts/UniversLTStd-BoldCn.woff') format('woff'), url('fonts/UniversLTStd-BoldCn.ttf')  format('truetype'), url('fonts/UniversLTStd-BoldCn.svg#UniversLTStd-BoldCn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.OED {
+    font-family: 'UniversLTStd-Cn';
+    font-size: 18px;
+}
+
+.principal {
+    background-image: url(../img/principal.jpg);
+    width: 1024px;
+    height: 660px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    .box {
+        background-color: #fff;
+        width: 407px;
+        border-radius: 10px 10px 0 0;
+        position: absolute;
+        top: 183px;
+        right: 116px;
+        padding: 25px;
+    }
+
+    .avancar {
+        background-color: $red;
+        color: #fff;
+        width: 457px;
+        border-radius: 0 0 10px 10px;
+        position: absolute;
+        bottom: -52px;
+        right: 0;
+        text-align: center;
+        padding: 15px 0;
+        cursor: pointer;
+    }
+    
+    .aba {
+        background-color: $red;
+        color: #fff;
+        font-size: 22px;
+        font-family: 'UniversLTStd-BoldCn';
+        border-radius: 10px 0 0 10px;
+        width: 240px;
+        padding: 26px;
+        position: absolute;
+        right: 0;
+        display: none;
+        transition: transform 0.25s;
+        cursor: pointer;
+        
+        &:hover, &:focus {
+            animation-name: pulse;
+        }
+    }
+    
+    .aba1 {
+        top: 111px;
+    }
+    
+    .aba2 {
+        top: 225px;
+    }
+    
+    .aba3 {
+        top: 338px;
+    }
+}
+
+.estrutura {
+    background-image: url(../img/estrutura.jpg);
+    width: 1024px;
+    height: 660px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+    .titulo {
+        background-color: $red;
+        color: #fff;
+        font-size: 26px;
+        font-family: 'UniversLTStd-BoldCn';
+        border-radius: 0 10px 10px 0;
+        width: 172px;
+        padding: 16px 28px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+    
+    .voltar {
+        margin-top: 9px;
+        float: left;
+        cursor: pointer;
+    }
+    
+    .divider {
+        height: 45px;
+        width: 1px;
+        background-color: #f78185;
+        margin: 0 20px;
+        float: left;
+    }
+    
+    .texto {
+//        margin-top: 6px;
+        line-height: 45px;
+    }
+    
+    .ponto1 {
+        top: 70px;
+        left: 550px;
+    }
+
+    .ponto2 {
+        top: 200px;
+        left: 470px;
+    }
+
+    .ponto3 {
+        top: 263px;
+        left: 375px;
+    }
+
+    .ponto4 {
+        top: 337px;
+        left: 304px;
+    }
+
+    .ponto5 {
+        top: 365px;
+        left: 474px;
+    }
+
+    .ponto6 {
+        top: 610px;
+        left: 474px;
+    }
+}
+
+.atividade {
+    position: absolute;
+    display: none;
+    background-color: #000;
+    width: 1024px;
+    height: 660px;
+    
+//    video {
+//        margin-left: -50px;
+//    }
+    
+    .titulo {
+        background-color: $red;
+        color: #fff;
+        font-size: 26px;
+        font-family: 'UniversLTStd-BoldCn';
+        border-radius: 0 10px 10px 0;
+        width: 220px;
+        padding: 16px 30px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+    
+    .voltar {
+        margin-top: 9px;
+        float: left;
+        cursor: pointer;
+    }
+    
+    .divider {
+        height: 45px;
+        width: 1px;
+        background-color: #f78185;
+        margin: 0 20px;
+        float: left;
+    }
+    
+    .texto {
+//        margin-top: 6px;
+        line-height: 45px;
+    }
+}
+
+.mundo {
+    background-image: url(../img/mundo.jpg);
+    width: 1024px;
+    height: 660px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+    .titulo {
+        background-color: $red;
+        color: #fff;
+        font-size: 26px;
+        font-family: 'UniversLTStd-BoldCn';
+        border-radius: 0 10px 10px 0;
+        width: 292px;
+        padding: 16px 30px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+    
+    .voltar {
+        margin-top: 9px;
+        float: left;
+        cursor: pointer;
+    }
+    
+    .divider {
+        height: 45px;
+        width: 1px;
+        background-color: #f78185;
+        margin: 0 20px;
+        float: left;
+    }
+    
+    .texto {
+//        margin-top: 6px;
+        line-height: 45px;
+    }
+    
+    .box {
+        background-color: #fff;
+        width: 597px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 16px;
+        bottom: 30px;
+        left: 30px;
+        padding: 25px;
+    }
+    
+    .ponto1 {
+        top: 140px;
+        left: 209px;
+    }
+
+    .ponto2 {
+        top: 230px;
+        left: 151px;
+    }
+
+    .ponto3 {
+        top: 362px;
+        left: 58px;
+    }
+
+    .ponto4 {
+        top: 282px;
+        left: 343px;
+    }
+
+    .ponto5 {
+        top: 211px;
+        left: 483px;
+    }
+
+    .ponto6 {
+        top: 337px;
+        left: 563px;
+    }
+    
+    .ponto7 {
+        top: 192px;
+        left: 841px;
+    }
+    
+    .ponto8 {
+        top: 224px;
+        left: 824px;
+    }
+    
+    .ponto9 {
+        top: 341px;
+        left: 913px;
+    }
+    
+    .vulcao01 {
+	    background-image: url(../img/vulcao01.jpg);
+        width: 1024px;
+        height: 660px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .vulcao02 {
+	    background-image: url(../img/vulcao02.jpg);
+        width: 1024px;
+        height: 660px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .vulcao03 {
+	    background-image: url(../img/vulcao03.jpg);
+        width: 1024px;
+        height: 660px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .vulcao04 {
+	    background-image: url(../img/vulcao04.jpg);
+        width: 1024px;
+        height: 660px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .vulcao05 {
+	    background-image: url(../img/vulcao05.jpg);
+        width: 1024px;
+        height: 660px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .vulcao06 {
+	    background-image: url(../img/vulcao06.jpg);
+        width: 1024px;
+        height: 660px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .vulcao07 {
+	    background-image: url(../img/vulcao07.jpg);
+        width: 1024px;
+        height: 660px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .vulcao08 {
+	    background-image: url(../img/vulcao08.jpg);
+        width: 1024px;
+        height: 660px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .vulcao09 {
+	    background-image: url(../img/vulcao09.jpg);
+        width: 1024px;
+        height: 660px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .close2 {
+        background-image: url(../img/close2.png);
+        width: 52px;
+        height: 52px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+        opacity: .5;
+        transition: opacity .25s;
+        
+        &:hover, &:focus {
+            opacity: 1;
+        }
+    }
+    
+    .legenda {
+        background: rgba(0,0,0,0.5);
+        width: 794px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px 115px;
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+    }
+}
+
+.ponto {
+    background-image: url(../img/ponto.png);
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    cursor: pointer;
+//    animation-name: pulse;
+    animation-iteration-count: infinite;
+}
+
+.popup {
+    background-image: url(../img/blur.jpg);
+    width: 1024px;
+    height: 660px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+    .box {
+        background-color: #fff;
+        width: 441px;
+        border-radius: 10px;
+        position: absolute;
+        top: 240px;
+        left: 261px;
+        padding: 30px;
+        position: relative;
+        
+        span {
+            font-family: 'UniversLTStd-BoldCn';
+        }
+        
+        .close {
+            background-image: url(../img/close.png);
+            width: 27px;
+            height: 27px;
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            cursor: pointer;
+            opacity: .4;
+            transition: opacity .25s;
+            
+            &:hover, &:focus {
+                opacity: 1;
+            }
+        }
+    }
+}

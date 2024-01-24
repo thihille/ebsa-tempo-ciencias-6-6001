@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'MyriadStdTilt';
+	src: url('fonts_praticando/myriadstdtilt-webfont.eot');
+    src: url('fonts_praticando/myriadstdtilt-webfont.eot') format('embedded-opentype'),
+         url('fonts_praticando/myriadstdtilt-webfont.woff2') format('woff2'),
+         url('fonts_praticando/myriadstdtilt-webfont.woff') format('woff'),
+         url('fonts_praticando/myriadstdtilt-webfont.ttf') format('truetype'),
+         url('fonts_praticando/myriadstdtilt-webfont.svg#myriadstdtilt-webfont') format('svg');
+
+}
+@font-face {
+    font-family: 'Museo500-Regular';
+	src: url('fonts_praticando/museo500-regular-webfont.eot');
+    src: url('fonts_praticando/museo500-regular-webfont.eot') format('embedded-opentype'),
+         url('fonts_praticando/museo500-regular-webfont.woff2') format('woff2'),
+         url('fonts_praticando/museo500-regular-webfont.woff') format('woff'),
+         url('fonts_praticando/museo500-regular-webfont.ttf') format('truetype'),
+         url('fonts_praticando/museo500-regular-webfont.svg#museo500-regular-webfont') format('svg');
+}
+@font-face {
+    font-family: 'CronosPro-Regular';
+	src: url('fonts_praticando/cronospro-regular-webfont.eot');
+    src: url('fonts_praticando/cronospro-regular-webfont.eot') format('embedded-opentype'),
+         url('fonts_praticando/cronospro-regular-webfont.woff2') format('woff2'),
+         url('fonts_praticando/cronospro-regular-webfont.woff') format('woff'),
+         url('fonts_praticando/cronospro-regular-webfont.ttf') format('truetype'),
+         url('fonts_praticando/cronospro-regular-webfont.svg#cronospro-regular-webfont') format('svg');
+}
+
+
+
