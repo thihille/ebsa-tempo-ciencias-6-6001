@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="expires" content="0" />
+	<meta name="author" content="Editora do Brasil" />
+	<meta name="copyright" content="© 2014 Editoradobrasil.com.br" />
+	<meta name="apple-mobile-web-app-title" content="Editora do Brasil">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/din.css" type="text/css">
+	<link rel="stylesheet" href="css/animate.css" type="text/css">
+	<link rel="stylesheet" href="css/template.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<title></title>
+</head>
+
+<body>
+<div id="loading"><img src="img/template/loader.gif" alt="Carregando">Carregando</div>
+<div id="init" class="container">
+	<div id="capa">
+		<div class="header">
+			<h1></h1>
+		</div>
+		<div class="subheader">
+			<span>-</span>	
+			<p></p>
+		</div>
+		<div class="acoes">
+			<div>Iniciar</div>
+			<div>Créditos</div>
+		</div>
+		<div id="creditos">
+			<div class="barraLogo">
+				<img src="img/template/logo.png">
+			</div>
+			<h2>Projeto Jimboê</h2>
+			<div class="boxTextMask"></div>
+			<div class="boxText">
+				<div class="text-creditos">
+				</div>
+			</div>
+			<div class="btnFechaCreditos">FECHAR</div>
+		</div>
+	</div>
+
+	<div id="content">
+	<!-- Início do html aqui -->
+		<div class="game">
+			<div class="setaGame1"></div>
+			<div class="setaGame2"></div>
+			<div class="setaGame3"></div>
+			<div class="setaGame3_1"></div>
+			<div class="setaGame4"></div>
+			<div class="setaGame4_1"></div>
+			<div class="openFase1 abrir" id="fase1"></div>
+			<div class="openFase2 abrir" id="fase2"></div>
+			<div class="openFase3 abrir" id="fase3"></div>
+			<div class="openFase3_1 abrir" id="fase3"></div>
+			<div class="openFase4 abrir" id="fase4"></div>
+
+			<div class="popupInicial">
+				<div class="content">
+					<p>
+						A constante movimentação da água na natureza é chamada de “ciclo da água”, que muda continuamente de estado físico. O infográfico a seguir mostra um esquema do ciclo da água. As setas vermelhas representam as quatro etapas do ciclo. Clique em uma seta para testar seus conhecimentos.
+					</p>
+					<div class="close"><img src="img/close_inicial.png" alt=""></div>
+				</div>
+			</div>
+
+			<div class="fase1">
+				<div class="contentVideo">
+					<div class="close"><img src="img/close_video.png" alt=""></div>
+					<video width="710" height="500" src="media/video/evaporacao_t_leg.mp4" poster="./img/evaporacao_t_leg.jpg" controls preload="auto"  onended="funcao_sair_fullscreen();">
+						<!--<source src="media/video/evaporacao_t_leg.mp4" type="video/mp4">
+						<source src="media/video/evaporacao_t_leg.ogg" type="video/ogg">-->
+						Seu navegador não suporte esse vídeo, por favor atualize.
+					</video>
+				</div>
+				<div class="content">
+					<div class="imgReferencia"><img src="img/referencia_fase1.png" alt=""></div>
+					<div class="perguntas">
+						<h1>Qual é a importância do Sol no ciclo <br />da água?</h1>
+						<ul>
+							<li>
+								<div id="correto">
+									<h2>A</h2>
+									<h3>Fornece calor ao ambiente, causando a evaporação de rios, lagos e oceanos.</h3>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h2>B</h2>
+									<h3>O calor solar provoca a precipitação da água de rios, oceanos e lagos.</h3>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h2>C</h2>
+									<h3>A radiação solar é a principal responsável pela condensação de rios, oceanos e lagos.</h3>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="fase2">
+				<div class="contentVideo">
+					<div class="close"><img src="img/close_video.png" alt=""></div>
+					<video width="710" height="500" src="media/video/condensacao_t_leg.mp4" poster="./img/condensacao_t_leg.jpg" controls preload="auto"  onended="funcao_sair_fullscreen();">
+						<!-- <source src="media/video/condensacao_t_leg.mp4" type="video/mp4">
+						<source src="media/video/condensacao_t_leg.ogg" type="video/ogg"> -->
+						Seu navegador não suporte esse vídeo, por favor atualize.
+					</video>
+				</div>
+				<div class="content">
+					<div class="imgReferencia"><img src="img/referencia_fase2.png" alt=""></div>
+					<div class="perguntas">
+						<h1>Ao atingir as camadas mais altas da atmosfera, o vapor de água se resfria, formando gotículas muito pequenas, que compõem as:</h1>
+						<ul>
+							<li>
+								<div>
+									<h2>A</h2>
+									<h3>nevascas.</h3>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h2>B</h2>
+									<h3>chuvas.</h3>
+								</div>
+							</li>
+							<li>
+								<div id="correto">
+									<h2>C</h2>
+									<h3>nuvens.</h3>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="fase3">
+				<div class="contentVideo">
+					<div class="close"><img src="img/close_video.png" alt=""></div>
+					<video width="710" height="500" src="media/video/precipitacao_t_leg.mp4" poster="./img/precipitacao_t_leg.jpg" controls preload="auto"  onended="funcao_sair_fullscreen();">
+						<!--<source src="media/video/precipitacao_t_leg.mp4" type="video/mp4">
+						<source src="media/video/precipitacao_t_leg.ogg" type="video/ogg">-->
+						Seu navegador não suporte esse vídeo, por favor atualize.
+					</video>
+				</div>
+				<div class="content">
+					<div class="imgReferencia"><img src="img/referencia_fase3.png" alt=""></div>
+					<div class="perguntas">
+						<h1>A chuva é um fenômeno que ocorre devido à:</h1>
+						<ul>
+							<li>
+								<div id="correto">
+									<h2>A</h2>
+									<h3>precipitação das gotas de água presentes nas nuvens.</h3>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h2>B</h2>
+									<h3>ebulição das gotas de água presentes nas nuvens.</h3>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h2>C</h2>
+									<h3>lixiviação das gotas de água presentes nas nuvens.</h3>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="fase4">
+				<div class="contentVideo">
+					<div class="close"><img src="img/close_video.png" alt=""></div>
+					<video width="710" height="500" src="media/video/infiltracao_t_leg.mp4" poster="./img/infiltracao_t_leg.jpg" controls preload="auto"  onended="funcao_sair_fullscreen();">
+						<!--<source src="media/video/infiltracao_t_leg.mp4" type="video/mp4">
+						<source src="media/video/infiltracao_t_leg.ogg" type="video/ogg">-->
+						Seu navegador não suporte esse vídeo, por favor atualize.
+					</video>
+				</div>
+				<div class="content">
+					<div class="imgReferencia"><img src="img/referencia_fase4.png" alt=""></div>
+					<div class="perguntas">
+						<h1>O processo de infiltração contribui para:</h1>
+						<ul>
+							<li>
+								<div id="correto">
+									<h2>A</h2>
+									<h3>a formação de reservas subterrâneas de água.</h3>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h2>B</h2>
+									<h3>o aumento do volume dos rios.</h3>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h2>C</h2>
+									<h3>o aumento da evaporação.</h3>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	<!-- Final do html aqui -->
+	</div>
+</div>
+	<script>
+function iniciar_oed_frame(){
+	iniciar_com_tap();
+}	
+	</script>
+  <script type="text/javascript" src="../js/lib/howler.js"></script>
+  <script type="text/javascript" src="js/audios_oed.js"></script>
+  <script type="text/javascript" src="../js/carrega_oed.js"></script>
+  <script type="text/javascript" src="js/funcoes.js"></script>
+</body>	
+</html>
